@@ -35,7 +35,7 @@ int uni(int r,int l)
 }
 int result(int x,int y)
 {
-	if(root(''x)==root(y))
+	if(root(x)==root(y))
 		return 1;
 	else
 		return 0;

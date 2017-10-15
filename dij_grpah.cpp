@@ -61,7 +61,6 @@ int main()
 		d[i]=INF;
 	d[source]=0;
 	q.push(make_pair(source,0));
-	
 	while(!q.empty())
 	{
 		u=q.top().first;
@@ -81,6 +80,5 @@ int main()
 		}
 		F[u]=1;
 	}
-	
 	cout<<d[n]<<endl;	
 }

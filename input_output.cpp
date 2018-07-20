@@ -1,5 +1,4 @@
-#include<iostream>
-#include<fstream>
+#include<bits.stdc++.h>
 using namespace std;
 //remeber the code and the input file should be in same folder
 int main()

@@ -1,4 +1,4 @@
-//If you are reading this then you are at wrong place.
+  //If you are reading this then you are at wrong place.
 #include<bits/stdc++.h>
 #define mod 1000000007
 #define lli long long int
@@ -12,17 +12,18 @@ lli add(lli __a,lli __b,lli MOD){lli x = (__a+__b)%MOD; return x; }
 lli mul(lli a,lli b,lli MOD){lli x = (a*b)%MOD; return x; }
 lli sub(lli a,lli b,lli MOD){lli x = (a-b+MOD)%MOD; return x; }
 lli div(lli a,lli b,lli MOD){lli x = a;lli y = powermod(b,MOD-2,MOD);lli res = (x*y)%MOD;return res;}
+
 int main()
 {
-	//ifstream cin("testcase.txt");
+	ifstream cin("input");
 	//ofstream cout("output.txt");
 	ios_base::sync_with_stdio(0);
   cin.tie(0);
   cout.tie(0);
 	cout.precision(20);
 	lli t,i,j;
-	//cin>>t;
 	t=1;
+	//cin>>t;
 	lli counter1=0;
 	while(t--)
 	{

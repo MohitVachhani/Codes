@@ -15,7 +15,8 @@ lli div(lli a,lli b,lli MOD){lli x = a;lli y = powermod(b,MOD-2,MOD);lli res = (
 
 int main()
 {
-	ifstream cin("input");
+	//use ./a.out filename(input)
+	//ifstream cin("input");
 	//ofstream cout("output.txt");
 	ios_base::sync_with_stdio(0);
   cin.tie(0);
